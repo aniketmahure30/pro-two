@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import ".proOne/utils.scss";
+import "./App.css";
 import { getUserName } from "proOne/utils";
 
 function App() {
