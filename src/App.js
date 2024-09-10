@@ -1,15 +1,12 @@
 import React, { Suspense, lazy } from "react";
-import "./App.css";
-// const MainUtils = lazy(() => import("proOne/utils"));
-import { getNames } from "../../pro-one/src/utils";
-console.log("🚀 ~ getNames:", getNames)
-// console.log("🚀 ~ MainUtils:", MainUtils)
-
+import ".proOne/utils.scss";
+import { getUserName } from "proOne/utils";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">Demo app 2</header>
+      <header className="App-header">Welcome to Child App {getUserName()}</header>
     </div>
   );
 }

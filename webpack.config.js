@@ -49,7 +49,7 @@ module.exports = {
         "./Demo": "./src/App.js",
       },
       remotes: {
-        proOne: "proOne@http://localhost:3001/remoteEntry.js",
+        proOne: "proOne@http://localhost:3000/remoteEntry.js",
       },
       shared: {
         // and shared
